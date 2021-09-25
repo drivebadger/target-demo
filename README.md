@@ -13,7 +13,7 @@ Do NOT clone this repository directly. Instead, create similar repository from s
 Next, deploy it to `/opt/drivebadger/config/target-yourchosenname` local directory on your Drive Badger drive.
 
 This way, you are able to update it in the future by a single command `/opt/drivebadger/update.sh` (it automatically runs
-`/opt/drivebadger/internal/generic/rebuild-uuid-lists.sh` after update - if you want to update this repository alone,
+`/opt/drivebadger/internal/mobile/rebuild-uuid-lists.sh` after update - if you want to update this repository alone,
 remember to run this script manually).
 
 Multiple `target.uuid` and `ignore.uuid` files are allowed - each in separate repository.
@@ -44,7 +44,7 @@ Generated key will be displayed on console, and it will end with the hostname of
 
 https://github.com/yourgithublogin/target-yourchosenname/settings/keys
 
-4. Actually deploy the repository to the device:
+4. Deploy the repository to the device:
 
 ```
 GIT_SSH=/opt/drivebadger/internal/git/helper.sh \
