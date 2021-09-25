@@ -1,0 +1,28 @@
+# This file contains list of partition UUIDs, that should be recognized by Mobile Badger as target drives.
+# Empty lines, and comments beginning from # are allowed in this file.
+#
+# Multiple target.uuid files are allowed - each in separate repository.
+# Remember to run /opt/drivebadger/internal/generic/rebuild-uuid-lists.sh
+# script after each update of this repository.
+
+
+
+# Patriot RAGE 64GB (black-blue), NTFS dual Sherlock/Planter, verified 2019-10-12
+#
+082A-782E
+
+# Samsung Portable SSD T5 S4........8457E, formatted as ext4, with
+# .files/.data directory and mini-script for Linux, verified 2019-10-12
+#
+0d582361-6089-4f98-822a-f9c99f04a64b
+
+
+# SanDisk SSD 2TB, Kali Linux Live encrypted persistent partition
+# main Drive Badger training drive, verified 2021-07-15
+#
+2040d0d9-5b09-476e-bed9-7d410445f8f8
+
+# PNY SSD 256 GB, Kali Linux Live persistent partition (unencrypted)
+# main Mobile Badger testing drive, verified 2021-07-15
+#
+1aa2c5b5-c4c6-4b23-9e72-da9a15a36261
